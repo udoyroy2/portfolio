@@ -52,7 +52,7 @@ function Skills(){
                         {group.title}
                     </h3>
 
-                    <div className="flex flex-wrap gsp-3">
+                    <div className="flex flex-wrap gap-3">
                         {group.skills.map((skills) => (
                             <span key={skills}
                             className="border border-white/15 bg-white/5 px-4 py-2 rounded-full text-sm text-gray-300 hover:bg-orange-500 hover:text-black hover:border-orange-500 transition duration-300 cursor-default"

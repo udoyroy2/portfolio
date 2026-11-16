@@ -6,6 +6,7 @@ const projects = [
         tech: ["React", "FastAPI", "PostgreSQL", "Python"],
         github: "https://github.com/udoyroy2/ecommerce3",
         category: "Full Stack",
+        video: ""
 
     },
     {
@@ -15,6 +16,7 @@ const projects = [
         tech: ["React", "Node.js", "Express.js", "MongoDB"],
         github: "https://github.com/udoyroy2/mernstackecommerce2",
         category: "Full Stack",
+        video: ""
 
     },
     {
@@ -24,6 +26,7 @@ const projects = [
         tech: ["MYSQL", "PHP", "HTML", "CSS", "JS"],
         github: "https://github.com/udoyroy2/healthcare",
         category: "Web Application",
+        video: "https://res.cloudinary.com/gcabgqed/video/upload/v1794754582/healthcaredemo.mkv"
 
     },
     {
@@ -33,6 +36,7 @@ const projects = [
         tech: ["MYSQL", "PHP", "HTML", "CSS", "JS"],
         github: "https://github.com/udoyroy2/fakecheckeruniproject",
         category: "Web Application",
+        video: "https://res.cloudinary.com/gcabgqed/video/upload/v1794755097/fakecheckerdemo.mkv"
 
     },
     {
@@ -42,15 +46,17 @@ const projects = [
         tech: ["Java", "JavaFX", "Scene Builder"],
         github: "https://github.com/mdmhbllm/fiveStarHotel",
         category: "Desktop Application",
+        video: ""
 
     },
     {
         title: "React E-commerce Practice",
         description:
-            "A Java-based hotel management and simulation project developed to practice object-oriented programming, GUI development, and file handling.",
-        tech: ["Java", "JavaFX", "Scene Builder"],
+            "A frontend-focused e-commerce practice project built to improve React fundamentals, component design, routing, and UI development.",
+        tech: ["React", "JavaScript", "Node.js, Express.js"],
         github: "https://github.com/udoyroy2/ecommerceforreactpractice",
         category: "Frontend",
+        video: ""
 
     },
 ]
@@ -79,6 +85,23 @@ function Project() {
                 {projects.map((project, index) => (
                     <div key={project.title}
                         className="group border border-white/15 bg-white/[0.03] rounded-2xl p-8 hover:border-orange-500 hover:-translate-y-2 transition duration-300">
+                        {project.video && (
+                            <video src={project.video}
+                            controls
+                            playsInline
+                            preload="metadata"
+                            className="w-full aspect-video object-cover rounded-xl mb-6">
+                                
+                            </video>
+                        )}
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         <div className="flex justify-between items-center">
                             <span className="text-orange-500 text-sm">
                                 0{index + 1}

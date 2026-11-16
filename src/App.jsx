@@ -10,8 +10,8 @@ import About from "./sections/About"
 import Skills from "./sections/Skills";
 import Project from "./sections/Project"
 import Contact from "./sections/Contact";
-
-
+import Education from "./sections/Education";
+import BeyondCode from "./sections/BeyondCode";
 
 
 
@@ -31,7 +31,9 @@ function App() {
     <div className="relative z-10">
       <Home/>
       <About/>
+      <BeyondCode/>
       <Skills/>
+      <Education/>
       <Project/>
       <Contact/>
       

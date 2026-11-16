@@ -146,7 +146,7 @@ function CameraController(){
         window.addEventListener("pointermove",handlePoniter);
 
         return () => {
-            window.removeEventListener("ponitermove",handlePoniter);
+            window.removeEventListener("poitermove",handlePoniter);
 
         };
     },[])
