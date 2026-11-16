@@ -67,24 +67,24 @@ function Project() {
             className="min-h-screen px-6 md:px-16 py-32">
 
             <p className="text-orange-500 uppercase tracking-widest">
-                My Work
+                My Work🧡
             </p>
 
             <h2 className="text-4xl md:text-6xl font-bold mt-5 mb-5">
-                Project I've Build
+                Project I've Build 
             </h2>
 
             <p className="text-gray-400 max-w-2xl mb-12">
                 A collection of academic and personal projects where
                 I explore technologies, practice development, and
-                turn ideas into working applications.
+                turn ideas into working applications.🫶
             </p>
 
 
             <div className="grid md:grid-cols-2 gap-6 max-w-6xl">
                 {projects.map((project, index) => (
                     <div key={project.title}
-                        className="group border border-white/15 bg-white/[0.03] rounded-2xl p-8 hover:border-orange-500 hover:-translate-y-2 transition duration-300">
+                        className="group border border-white/15 bg-white/[0.03] rounded-2xl p-8 hover:border-orange-500 hover:-translate-y-2 active:border-orange-500 active:scale-[0.98] transition duration-300">
                         {project.video && (
                             <video src={project.video}
                             controls
@@ -115,7 +115,7 @@ function Project() {
 
                         </div>
 
-                        <h3 className="text-2xl font-bold mt-6 group-hover:text-orange-500 transition">
+                        <h3 className="text-2xl font-bold mt-6 group-hover:text-orange-500 group-active:text-orange-500 transition">
                             {project.title}
                         </h3>
                         <p className="text-gray-400 mt-4 leading-relaxed">
@@ -134,7 +134,7 @@ function Project() {
                         <a href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 mt-8 text-white hover:text-orange-500 transition">
+                        className="inline-flex items-center gap-2 mt-8 text-white hover:text-orange-500 active:text-orange-500 transition">
                             View on Github
                             <span>↗</span>
                         </a>

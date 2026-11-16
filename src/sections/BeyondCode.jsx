@@ -1,41 +1,41 @@
 const interest = [
     {
         number: "01",
-        title: "Guiter and Music",
+        title: "Guiter🎸 and Music🎧 ",
         description: "Playing guitar and enjoying music. "
     },
 
     {
         number: "02",
-        title: "Philosophy and Literature",
+        title: "Philosophy🤔 and Literature📚",
         description: "Exploring philosophical ideas, literature, and different ways of understanding life "
     },
 
 
     {
         number: "03",
-        title: "Psychology",
+        title: "Psychology🧠 ",
         description: "Understanding human behavior, emotions, and the complexity of the human "
     },
     {
         number: "04",
-        title: "History & geopolitics",
+        title: "History⌛ & geopolitics🌍",
         description: "Learning about historical events, global affairs, and how the world evolves ."
     },
 
     {
         number: "05",
-        title: "Travel",
+        title: "Travel🎒🗺️ ",
         description: "Exploring infamiliar places and capturing moments through photography. "
     },
     {
         number: "06",
-        title: "Technology",
+        title: "Technology🤖💻⚙️ ",
         description: "Discovering emerging technologies , digital innovation , and new ideas."
     },
     {
         number: "07",
-        title: "Movies and Cinema",
+        title: "Movies🎬 and Cinema🍿",
         description: "Exploring Stories, films and different perspectives "
     },
 
@@ -68,13 +68,13 @@ function BeyondCode() {
                 <div className="grid md:grid-cols-2 gap-x-16 mt-16">
                     {interest.map((item)=>(
                     <div key={item.number}
-                        className="group border-t border-white/15 py-7 flex gap-6 hover:border-orange-500 transition-colors duration-300">
+                        className="group border-t border-white/15 py-7 flex gap-6 hover:border-orange-500 active:border-orange-500 transition-colors duration-300">
                         <span className="text-orange-500 text-sm pt-1">{
                             item.number}
 
                         </span>
                         <div>
-                            <h3 className="text-xl md:text-2xl font-semibold group-hover:text-orange-500 transition-colors duration-300">
+                            <h3 className="text-xl md:text-2xl font-semibold group-hover:text-orange-500 group-active:text-orange-500 transition-colors duration-300">
                                 {item.title}
                             </h3>
 

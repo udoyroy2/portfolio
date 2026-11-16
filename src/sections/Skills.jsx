@@ -1,22 +1,22 @@
 const skillGroups = [
 {
-title: "Frontend Development",
+title: "Frontend Development 🎨⚛️  ",
 skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Next.js", "Tailwind CSS", "React Router"],
 },
 {
-title: "Backend Development",
+title: "Backend Developmen 💻⚙️🔧 ",
 skills: ["Node.js", "Express.js", "FastAPI", "REST API", "JWT Authentication"],
 },
 {
-title: "Database",
+title: "Database 🛢️📊",
 skills: ["MongoDB", "PostgreSQL", "MySQL"],
 },
 {
-title: "Programming Languages Basic",
+title: "Programming Languages Basic 👨🏻‍💻 ",
 skills: ["Python", "Java"],
 },
 {
-title: "Tools & Others",
+title: "Tools & Others 🛠️",
 skills: ["Git", "GitHub", "Postman", "VS Code", "IntelliJ IDEA", "Figma", "XAMPP"],
 },
 ];
@@ -32,13 +32,13 @@ function Skills(){
         </p>
 
         <h2 className="text-4xl md:text-6xl font-bold mt-5 mb-5">
-            Technologies I'm Learning & Building With
+            Technologies I'm Learning & Building With🎯
         </h2>
 
 
         <p className="text-gray-400 max-w-2xl mb-12">
             Technologies and tools I have explored and used while
-            learning software development and building practical project .
+            learning software development and building practical project.
         </p>
 
 
@@ -55,7 +55,7 @@ function Skills(){
                     <div className="flex flex-wrap gap-3">
                         {group.skills.map((skills) => (
                             <span key={skills}
-                            className="border border-white/15 bg-white/5 px-4 py-2 rounded-full text-sm text-gray-300 hover:bg-orange-500 hover:text-black hover:border-orange-500 transition duration-300 cursor-default"
+                            className="border border-white/15 bg-white/5 px-4 py-2 rounded-full text-sm text-gray-300 hover:bg-orange-500 hover:text-black hover:border-orange-500 active:bg-orange-500 active:text-black active:border-orange-500 transition duration-300 cursor-pointer"
                             
                             >{skills}</span>
                         ))}

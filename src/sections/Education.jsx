@@ -10,7 +10,7 @@ function Education() {
             </p>
 
             <h2 className="text-4xl md:text-6xl font-bold mt-5 mb-12">
-                Education & <span className="text-orange-500">Journey.</span>
+                Education🎓&<span className="text-orange-500">Journey.</span>
             </h2>
 
             <div className="max-w-4xl space-y-8">
@@ -18,7 +18,7 @@ function Education() {
                 
                 <div className="border border-white/15 bg-white/[0.03] rounded-2xl p-8">
                     <span className="text-orange-500 text-sm">
-                        Education
+                        Education 🏫
                     </span>
 
                     <h3 className="text-2xl font-bold mt-4">
@@ -44,7 +44,7 @@ function Education() {
 
                     <h5 className="text-2xl font-bold mt-4">
                         Government Rajoir Gopalganj K.J.S. Pilot Model Institution & College
-                        Rajoir,Madaripur
+                        Rajoir, Madaripur
                     </h5>
 
                     <p className="text-gray-400 mt-2">
@@ -59,7 +59,7 @@ function Education() {
 
                 <div className="border border-white/15 bg-white/[0.03] rounded-2xl p-8">
                     <span className="text-orange-500 text-sm">
-                        Learning Journey
+                        Learning Journey 🛣️
                     </span>
 
                     <div className="mt-6 space-y-6">

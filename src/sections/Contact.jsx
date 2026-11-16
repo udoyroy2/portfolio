@@ -30,7 +30,7 @@ function Contact() {
 
 
         try {
-            const response = await fetch("http://localhost:5000/api/contact", {
+            const response = await fetch(`${import.meta.env.VIE_API_URL}/api/contact`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -66,7 +66,7 @@ function Contact() {
         >
 
             <p className="text-orange-500 uppercase tracking-widest">
-                Get In Touch
+                Get In Touch 🤝
             </p>
 
             <h2 className="text-5xl md:text-7xl font-bold mt-6 max-w-3xl leading-tight">
@@ -81,7 +81,7 @@ function Contact() {
                 I'm always interested in learning new technologies,
                 working on interesting projects, and connecting with
                 developers. Feel free to reach out for collaboration,
-                internship opportunities, or just a friendly conversation.
+                internship opportunities, or just a friendly conversation.🤙
             </p>
             <form onSubmit={handleSubmit} className="mt-12 max-w-xl space-y-5">
                 <input
@@ -128,7 +128,7 @@ function Contact() {
                 <button
                     type="submit"
                     disabled={loading}
-                    className="px-8 py-4 bg-orange-500 text-black font-semibold rounded-lg hover:bg-orange-400 transition disabled:opacity-50">
+                    className="px-8 py-4 bg-orange-500 text-black font-semibold rounded-lg hover:bg-orange-400 active:scale-95 transition disabled:opacity-50">
                     {loading ? "Sending..." : "Send Message"}
                     <ArrowUpRight className="inline ml-2" size={18} />
                 </button>
@@ -153,7 +153,7 @@ function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
-                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 transition"
+                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 active:bg-orange-500 active:text-black active:border-orange-500 transition"
 
                 > <FaGithub size={22} />
                 </a>
@@ -162,8 +162,8 @@ function Contact() {
                     href="Not open yet"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="GitHub"
-                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 transition"
+                    aria-label="Linkedin"
+                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 active:bg-orange-500 active:text-black active:border-orange-500 transition"
 
                 > <FaLinkedin size={22} />
                 </a>
@@ -173,7 +173,7 @@ function Contact() {
                     target="_blank"
                     rel="nooperner noreferrer"
                     aria-label="Instagram"
-                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 transition"
+                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 active:bg-orange-500 active:text-black active:border-orange-500 transition"
 
                 > <FaInstagram size={22} />
                 </a>
@@ -182,7 +182,7 @@ function Contact() {
                     target="_blank"
                     rel="nooperner noreferrer"
                     aria-label="Facebook"
-                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 transition"
+                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 active:bg-orange-500 active:text-black active:border-orange-500 transition"
 
                 > <FaFacebook size={22} />
                 </a>
@@ -191,15 +191,25 @@ function Contact() {
                     target="_blank"
                     rel="nooperner noreferrer"
                     aria-label="Whatsapp"
-                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 transition"
+                    className="p-4 border border-white/15 rounded-full hover:bg-orange-500 hover:text-black hover:border-orange-500 active:bg-orange-500 active:text-black active:border-orange-500 transition"
 
                 > <FaWhatsapp size={22} />
                 </a>
 
             </div>
 
-            <p className="text-gray-500 text-sm mt-20">
-                © {new Date().getFullYear()} Udoy Roy . Build With React, three.js and Tailwind CSS.
+            <p className="text-gray-500 text-sm mt-20 text-center">
+                © {new Date().getFullYear()} Udoy Roy .
+                
+                 <br />
+                 Build With react, three.js and tailwind CSS. more
+                <br />
+
+                <span className="text-orange-500">
+                    This portfolio is a work in progress. More project UI design feature are coming soon!
+                </span>
+
+
             </p>
         </section>
     );

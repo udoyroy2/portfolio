@@ -8,18 +8,17 @@ function About() {
 
 
                 <h2 className="text-4xl md:text-6xl font-bold">
-                    About Me
+                    About Me 👋
                 </h2>
 
                 <h3 className="text-orange-500 text-lg md:text-xl font-medium mt-6">
                      CSE Student | Aspiring Full Stack Developer
                 </h3>
                 <p className="text-gray-400 text-lg mt-8 leading-8">
-                   
-
-                    I'm a Computer Science student passionate about software development and learning modern technologies.
-                    I enjoy building web applications, exploring frontend and backend development, working with databases, and turning ideas into practical projects.
-                    I also use AI-assisted tools to learn, solve problems, debug code, and improve my development workflow.
+                 I'm a Computer Science student passionate about software development and continuously learning modern technologies.
+                I enjoy building web applications, exploring both frontend and backend development, working with databases, and transforming ideas into practical solutions.
+                I also leverage AI-powered tools to support my development workflow, explore new technologies, debug code, and improve problem-solving efficiency. 
+                I combine AI 🤖 assistance with my own technical knowledge, creativity, and hands-on coding skills to understand, develop, and build meaningful applications.🤪
                 </p>
                 <p className="text-gray-400 text-lg mt-8 leading-8">
                 Beyond technology, 
@@ -28,7 +27,7 @@ function About() {
                 I'm naturally curious about technology, human behavior, history, and the little details that often go unnoticed.
                 I enjoy learning by exploring, experimenting, and building things, finding satisfaction in turning ideas into something practical and understanding how things work beneath the surface.
                 I value independent thinking, authenticity, and personal growth,
-                believing that curiosity, experience, and continuous learning shape the way I see and understand the world
+                believing that curiosity, experience, and continuous learning shape the way I see and understand the world ☮️
                 </p>
             </div>
         </section>
