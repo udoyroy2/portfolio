@@ -45,7 +45,7 @@ function Skills(){
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl">
             {skillGroups.map((group)=>(
                 <div key={group.title}
-                className="border border-white/10 bg-white/[0.03] rounded-2xl p-7"
+                className="group border border-white/10 bg-white/[0.03] rounded-2xl p-7 transition duration-300 hover:border-orange-500 hover:-translate-y-2 active:border-orange-500 active:scale-[0.98]"
                 
                 >
                     <h3 className="text-xl font-semibold mb-6 text-orange-500">
@@ -55,7 +55,7 @@ function Skills(){
                     <div className="flex flex-wrap gap-3">
                         {group.skills.map((skills) => (
                             <span key={skills}
-                            className="border border-white/15 bg-white/5 px-4 py-2 rounded-full text-sm text-gray-300 hover:bg-orange-500 hover:text-black hover:border-orange-500 active:bg-orange-500 active:text-black active:border-orange-500 transition duration-300 cursor-pointer"
+                            className="border border-white/15 bg-white/5 px-4 py-2 rounded-full text-sm text-gray-300 hover:bg-orange-500 hover:text-black hover:border-orange-500 hover:scale-105  active:bg-orange-500 active:text-black active:border-orange-500 active:scale-95 transition duration-300 cursor-pointer"
                             
                             >{skills}</span>
                         ))}

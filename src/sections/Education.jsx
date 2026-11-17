@@ -16,12 +16,12 @@ function Education() {
             <div className="max-w-4xl space-y-8">
 
                 
-                <div className="border border-white/15 bg-white/[0.03] rounded-2xl p-8">
+                <div className="group border border-white/15 bg-white/[0.03] rounded-2xl p-8 transition duration-300 hover:border-orange-500 hover:-translate-y-2 active:border-orange-500 active:scale-[0.99]">
                     <span className="text-orange-500 text-sm">
                         Education 🏫
                     </span>
 
-                    <h3 className="text-2xl font-bold mt-4">
+                    <h3 className="text-xl font-semibold transition duration-300 group-hover:text-orange-500 group-active:text-orange-500">
                         Independent University, Bangladesh
                     </h3>
 
@@ -29,11 +29,11 @@ function Education() {
                         Bachelor of Science in Computer Science & Engineering
                     </p>
 
-                    <p className="text-gray-500 text-sm mt-4">
+                    <p className="text-gray-400 mt-2">
                         Currently pursuing undergraduate studies
                     </p>
 
-                    <h4 className="text-2xl font-bold mt-4">
+                    <h4 className="text-xl font-semibold transition duration-300 group-hover:text-orange-500 group-active:text-orange-500">
                         Ideal College Dhanmondi,
                         65 Central Road, Dhanmondi, Dhaka 1205
                     </h4>
@@ -42,7 +42,7 @@ function Education() {
                         HSC Batch - 2020
                     </p>
 
-                    <h5 className="text-2xl font-bold mt-4">
+                    <h5 className="text-xl font-semibold transition duration-300 group-hover:text-orange-500 group-active:text-orange-500">
                         Government Rajoir Gopalganj K.J.S. Pilot Model Institution & College
                         Rajoir, Madaripur
                     </h5>
@@ -57,15 +57,15 @@ function Education() {
                 </div>
 
 
-                <div className="border border-white/15 bg-white/[0.03] rounded-2xl p-8">
-                    <span className="text-orange-500 text-sm">
+                <div className="group border border-white/15 bg-white/[0.03] rounded-2xl p-8 transition duration-300 hover:border-orange-500 hover:-translate-y-2 active:border-orange-500 active:scale-[0.99]">
+                    <span className="text-xl font-semibold transition duration-300 group-hover:text-orange-500 group-active:text-orange-500">
                         Learning Journey 🛣️
                     </span>
 
                     <div className="mt-6 space-y-6">
 
                         <div>
-                            <h3 className="text-xl font-semibold">
+                            <h3 className="text-xl font-semibold transition duration-300 group-hover:text-orange-500 group-active:text-orange-500">
                                 01. Java OOP & Desktop Application Development
                             </h3>
                             <p className="text-gray-400 mt-2">
@@ -78,7 +78,7 @@ function Education() {
                         </div>
 
                         <div>
-                            <h3 className="text-xl font-semibold">
+                            <h3 className="text-xl font-semibold transition duration-300 group-hover:text-orange-500 group-active:text-orange-500  ">
                                 02. Frontend Development
                             </h3>
                             <p className="text-gray-400 mt-2">
@@ -88,7 +88,7 @@ function Education() {
                         </div>
 
                         <div>
-                            <h3 className="text-xl font-semibold">
+                            <h3 className="text-xl font-semibold transition duration-300 group-hover:text-orange-500 group-active:text-orange-500">
                                 03. Backend & Database
                             </h3>
                             <p className="text-gray-400 mt-2">
@@ -98,7 +98,7 @@ function Education() {
                         </div>
 
                         <div>
-                            <h3 className="text-xl font-semibold">
+                            <h3 className="text-xl font-semibold transition duration-300 group-hover:text-orange-500 group-active:text-orange-500 ">
                                 04. Full-Stack Projects
                             </h3>
                             <p className="text-gray-400 mt-2">

@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 
-app.get("/",(req,res) => {
+app.get("/",( req , res) => {
     res.send("Portfolio Backend running!");
 });
 
@@ -40,7 +40,7 @@ app.post("/api/contact", async (req , res)=>{
 
         res.status(201).json({
             success: true,
-            message: "Message submitted successfully I will contact you"
+            message: "Awesome bro 🤟! Your message has been received. I'll get back to you as soon as possible! 🚀"
         })
 
     }catch(error){
@@ -63,9 +63,6 @@ app.post("/api/contact", async (req , res)=>{
 mongoose.connect(process.env.MONGO_URL)
 .then(()=>{
     console.log("MongoDB Connected Successfully");
-})
-.catch((error) => {
-    console.log("MongoDB Connection Successfully");
 })
 .catch((error) => {
     console.log("MongoDB Connection Error:",error);
